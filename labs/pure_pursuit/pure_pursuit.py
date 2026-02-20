@@ -7,9 +7,11 @@ import rustoracerpy
 
 WHEELBASE = 0.3302
 
-env = gym.make("Rustoracer-v0", yaml="maps/berlin.yaml", render_mode="human")
+env: rustoracerpy.RustoracerEnv = gym.make(
+    "Rustoracer-v0", yaml="maps/berlin.yaml", render_mode="human"
+)  # type: ignore
 obs, info = env.reset()
-waypoints = env.unwrapped.skeleton(info["pose"])
+waypoints = env.skeleton(info["pose"])
 
 try:
     while True:
