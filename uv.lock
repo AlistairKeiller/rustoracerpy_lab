@@ -529,18 +529,18 @@ wheels = [
 
 [[package]]
 name = "rustoracerpy"
-version = "0.3.1"
+version = "0.3.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "gymnasium" },
     { name = "matplotlib" },
     { name = "numpy" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/05/bc/908b81803b482643115da7e4e2910ecb71732933ee55dd39c79d76aecb15/rustoracerpy-0.3.1.tar.gz", hash = "sha256:d316da1d9823505e485ffa2f501dfc6e4b1e189ec9baa05430b93df7d24ee3c7", size = 162211, upload-time = "2026-02-20T21:05:32.041Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/84/3b/501a090a7c3d18e51de2e5a537ebb4b2b053262a2c04e4fb657ab7948b54/rustoracerpy-0.3.3.tar.gz", hash = "sha256:87b80742806570bb9716a96ce754d5c5868d48f0376a0a944563e544123124c8", size = 162762, upload-time = "2026-02-21T02:18:01.896Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/29/00/9884dd957b104c69dc4cfe9170e07472c4bd9b4607c5b521703402d1f3ef/rustoracerpy-0.3.1-cp314-cp314-macosx_11_0_arm64.whl", hash = "sha256:c17927e12ec00840f05d8fe14c3cd93c84f2b2c96368c452173259e5b242ef58", size = 1402351, upload-time = "2026-02-20T21:05:29.428Z" },
-    { url = "https://files.pythonhosted.org/packages/e0/7e/ebd02d8179572e12698109840fed8c319d89328c0eac4e833a01bada066d/rustoracerpy-0.3.1-cp314-cp314-manylinux_2_34_x86_64.whl", hash = "sha256:88472625081a70932450d86f3c27e31b0199cea24f09eb3ef3e6bb87273e75db", size = 1668012, upload-time = "2026-02-20T21:05:33.091Z" },
-    { url = "https://files.pythonhosted.org/packages/5f/29/426d75687363b88884e67d3b6bd4718feabd7f1d6d427993a642bdef1ef8/rustoracerpy-0.3.1-cp314-cp314-win_amd64.whl", hash = "sha256:057cbc8a9d3d54bee3338a366131934d7e54387820b540676e703f96183d55a6", size = 1282299, upload-time = "2026-02-20T21:05:30.924Z" },
+    { url = "https://files.pythonhosted.org/packages/b7/6a/4b31d29c25e2698fff6479b4a59e2a87633aac2698a97bf3ee89322e9ff5/rustoracerpy-0.3.3-cp314-cp314-macosx_11_0_arm64.whl", hash = "sha256:2af3172d8da685ce7b8e7c7a6a81dcd918c49211d7cd4f3b25730b35ff823e18", size = 1407204, upload-time = "2026-02-21T02:18:03.928Z" },
+    { url = "https://files.pythonhosted.org/packages/6a/31/05e7ec5e3f25e4bbd50039c3a445bc116b33ba975bafbb220dd8327d0808/rustoracerpy-0.3.3-cp314-cp314-manylinux_2_35_x86_64.whl", hash = "sha256:091fce2685a9480432ba89f290ac4c1d2606eb2172086d219fcb66a7c5795766", size = 1670289, upload-time = "2026-02-21T02:18:02.743Z" },
+    { url = "https://files.pythonhosted.org/packages/58/c2/e98ec83dbe5e9e0e5d7f4afbaf423a8105859af6abefc62c26737ba31237/rustoracerpy-0.3.3-cp314-cp314-win_amd64.whl", hash = "sha256:162975734e1cd0a8a4eb1ff1e55ef25dca18b42cb7591c11224a708cf0e645ee", size = 1282464, upload-time = "2026-02-21T02:18:00.686Z" },
 ]
 
 [[package]]
@@ -558,7 +558,7 @@ dependencies = [
 requires-dist = [
     { name = "gymnasium", specifier = ">=1.2.3" },
     { name = "numpy", specifier = ">=2.4.2" },
-    { name = "rustoracerpy", specifier = ">=0.3.1" },
+    { name = "rustoracerpy", specifier = ">=0.3.3" },
     { name = "stable-baselines3", specifier = ">=2.7.1" },
 ]
 
